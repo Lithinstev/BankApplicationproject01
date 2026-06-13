@@ -8,6 +8,7 @@ public class Bankingoperation implements FunctionalComp{
 	{
 		if(Amount <= 0)
 			 throw new IllegalArgumentException("Widhdrawal amount should be in postive");
+		    
 		else if(Amount >= current_balance) 
 			throw new IllegalArgumentException("Widhdrawal amount should be less than or equal to current_balance");
 		else 
