@@ -6,6 +6,7 @@ import com.nt.service.Bankingoperation;
  * Hello world!
  */
 public class App {
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("App.main()");
@@ -15,5 +16,6 @@ public class App {
         double dd=B1.Deposit(1000);
         System.out.println(dd);
         
+
     }
 }
