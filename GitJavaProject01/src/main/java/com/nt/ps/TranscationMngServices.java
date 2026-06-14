@@ -2,7 +2,7 @@ package com.nt.ps;
 
 public class TranscationMngServices implements paymentservices
 {
-
+ // this is upi payment
 	@Override
 	public String Upipayment(long srcano, long desano, double amt) {
 		
